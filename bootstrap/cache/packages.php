@@ -6,6 +6,16 @@
       0 => 'Astrotomic\\Translatable\\TranslatableServiceProvider',
     ),
   ),
+  'bagisto/graphql-api' => 
+  array (
+    'aliases' => 
+    array (
+    ),
+    'providers' => 
+    array (
+      0 => 'Webkul\\GraphQLAPI\\Providers\\GraphQLAPIServiceProvider',
+    ),
+  ),
   'bagisto/laravel-datafaker' => 
   array (
     'aliases' => 
@@ -137,6 +147,13 @@
       0 => 'Maatwebsite\\Excel\\ExcelServiceProvider',
     ),
   ),
+  'mll-lab/laravel-graphiql' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'MLL\\GraphiQL\\GraphiQLServiceProvider',
+    ),
+  ),
   'nesbot/carbon' => 
   array (
     'providers' => 
@@ -158,6 +175,23 @@
       0 => 'Termwind\\Laravel\\TermwindServiceProvider',
     ),
   ),
+  'nuwave/lighthouse' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Nuwave\\Lighthouse\\LighthouseServiceProvider',
+      1 => 'Nuwave\\Lighthouse\\Async\\AsyncServiceProvider',
+      2 => 'Nuwave\\Lighthouse\\Auth\\AuthServiceProvider',
+      3 => 'Nuwave\\Lighthouse\\Bind\\BindServiceProvider',
+      4 => 'Nuwave\\Lighthouse\\Cache\\CacheServiceProvider',
+      5 => 'Nuwave\\Lighthouse\\GlobalId\\GlobalIdServiceProvider',
+      6 => 'Nuwave\\Lighthouse\\OrderBy\\OrderByServiceProvider',
+      7 => 'Nuwave\\Lighthouse\\Pagination\\PaginationServiceProvider',
+      8 => 'Nuwave\\Lighthouse\\SoftDeletes\\SoftDeletesServiceProvider',
+      9 => 'Nuwave\\Lighthouse\\Testing\\TestingServiceProvider',
+      10 => 'Nuwave\\Lighthouse\\Validation\\ValidationServiceProvider',
+    ),
+  ),
   'openai-php/laravel' => 
   array (
     'providers' => 
@@ -170,6 +204,18 @@
     'providers' => 
     array (
       0 => 'Pest\\Laravel\\PestServiceProvider',
+    ),
+  ),
+  'php-open-source-saver/jwt-auth' => 
+  array (
+    'aliases' => 
+    array (
+      'JWTAuth' => 'PHPOpenSourceSaver\\JWTAuth\\Facades\\JWTAuth',
+      'JWTFactory' => 'PHPOpenSourceSaver\\JWTAuth\\Facades\\JWTFactory',
+    ),
+    'providers' => 
+    array (
+      0 => 'PHPOpenSourceSaver\\JWTAuth\\Providers\\LaravelServiceProvider',
     ),
   ),
   'prettus/l5-repository' => 
