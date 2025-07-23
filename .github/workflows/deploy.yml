@@ -1,4 +1,4 @@
-name: 🚀 Deploy Laravel via FTP
+name: 🚀 Deploy RusticCommerce via FTP
 
 on:
   push:
